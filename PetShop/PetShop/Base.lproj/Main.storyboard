@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n2W-3J-C6W">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pet Mağazası-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cat Litter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fG-mj-bsg">
+                                <rect key="frame" x="155" y="133" width="96" height="26.333333333333343"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Jyl-nT-6CP">
+                                <rect key="frame" x="82.666666666666671" y="183.00000000000003" width="210.33333333333331" height="267.66666666666674"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fragrant, fine grained, graunded cat litter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nc-U9-xPo">
+                                <rect key="frame" x="20" y="458" width="353" height="52.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8e-ag-Ze8">
+                                <rect key="frame" x="151" y="542" width="82.333333333333314" height="27.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19C-VK-1ck">
+                                <rect key="frame" x="239.33333333333337" y="711.66666666666663" width="133.66666666666663" height="34.333333333333371"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CART">
+                                    <color key="baseForegroundColor" name="yaziRenk1"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="5LS-aI-txW">
+                                <rect key="frame" x="56" y="614" width="280.33333333333331" height="34.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpi-e8-TKC">
+                                        <rect key="frame" x="0.0" y="0.0" width="115.66666666666667" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Powdered">
+                                            <color key="baseForegroundColor" name="yaziRenk1"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBr-YI-jnq">
+                                        <rect key="frame" x="164.66666666666666" y="0.0" width="115.66666666666666" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Powder free">
+                                            <color key="baseForegroundColor" name="yaziRenk1"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 6,5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKR-eL-XnE">
+                                <rect key="frame" x="55.999999999999993" y="711" width="77.333333333333314" height="38.333333333333371"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5LS-aI-txW" firstAttribute="top" secondItem="c8e-ag-Ze8" secondAttribute="bottom" constant="44.329999999999998" id="5Xc-AE-SOA"/>
+                            <constraint firstAttribute="trailing" secondItem="6nc-U9-xPo" secondAttribute="trailing" constant="20" id="5gn-Kb-hrr"/>
+                            <constraint firstItem="4fG-mj-bsg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="89b-mJ-hA3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5LS-aI-txW" secondAttribute="trailing" constant="56.670000000000002" id="AkM-ZS-j8y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="19C-VK-1ck" secondAttribute="trailing" constant="20" id="F3V-c4-PNO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4fG-mj-bsg" secondAttribute="trailing" constant="142" id="FXw-bF-sAa"/>
+                            <constraint firstItem="Jyl-nT-6CP" firstAttribute="top" secondItem="4fG-mj-bsg" secondAttribute="bottom" constant="23.670000000000002" id="Fd8-fW-iMF"/>
+                            <constraint firstItem="6nc-U9-xPo" firstAttribute="top" secondItem="Jyl-nT-6CP" secondAttribute="bottom" constant="7.3300000000000001" id="FlU-uW-nH9"/>
+                            <constraint firstItem="6nc-U9-xPo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KoY-eP-QRF"/>
+                            <constraint firstItem="c8e-ag-Ze8" firstAttribute="top" secondItem="6nc-U9-xPo" secondAttribute="bottom" constant="31.329999999999998" id="Oea-ob-2oY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jyl-nT-6CP" secondAttribute="trailing" constant="100" id="Q35-gw-phe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="19C-VK-1ck" secondAttribute="bottom" constant="72" id="gac-n8-FLR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c8e-ag-Ze8" secondAttribute="trailing" constant="159.66999999999999" id="o0Z-CX-8FF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qKR-eL-XnE" secondAttribute="bottom" constant="68.670000000000002" id="pgk-AW-Kdk"/>
+                            <constraint firstItem="qKR-eL-XnE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="q13-Cg-aJd"/>
+                            <constraint firstItem="6nc-U9-xPo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="wwQ-Ld-BAY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pet Mağazası" id="zVU-ht-Xuf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994.6564885496183" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TBB-Uv-3VW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n2W-3J-C6W" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kdk-bR-BJH">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Bxx-Vc-fIi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bw-TG-EH8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67.938931297709928" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="210.33332824707031" height="267.66665649414062"/>
+        <namedColor name="anaRenk">
+            <color red="0.71074636488272269" green="0.11000769162528512" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.52150401562495885" green="0.3290887854637391" blue="0.61645075217964718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

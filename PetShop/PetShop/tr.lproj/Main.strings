@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "19C-VK-1ck"; */
+"19C-VK-1ck.configuration.title" = "SEPETE EKLE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "19C-VK-1ck"; */
+"19C-VK-1ck.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cat Litter"; ObjectID = "4fG-mj-bsg"; */
+"4fG-mj-bsg.text" = "Kedi Kumu";
+
+/* Class = "UILabel"; text = "Fragrant, fine grained, graunded cat litter"; ObjectID = "6nc-U9-xPo"; */
+"6nc-U9-xPo.text" = "Kokulu, ince tane, topraklanan kedi kumu";
+
+/* Class = "UIButton"; configuration.title = "Powdered"; ObjectID = "Bpi-e8-TKC"; */
+"Bpi-e8-TKC.configuration.title" = "Pudralı";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Bpi-e8-TKC"; */
+"Bpi-e8-TKC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Choose"; ObjectID = "c8e-ag-Ze8"; */
+"c8e-ag-Ze8.text" = "Seçim:";
+
+/* Class = "UIButton"; configuration.title = "Powder free"; ObjectID = "qBr-YI-jnq"; */
+"qBr-YI-jnq.configuration.title" = "Pudrasız";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qBr-YI-jnq"; */
+"qBr-YI-jnq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$ 6,5"; ObjectID = "qKR-eL-XnE"; */
+"qKR-eL-XnE.text" = "₺ 183";
+
+/* Class = "UINavigationItem"; title = "Pet Mağazası"; ObjectID = "zVU-ht-Xuf"; */
+"zVU-ht-Xuf.title" = "Pet Mağazası";
